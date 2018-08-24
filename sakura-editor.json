@@ -1,10 +1,20 @@
 {
     "version":  "2.3.2.0",
-    "license":  "",
-    "extract_dir":  "",
-    "url":  "https://sakura-editor.github.io/",
-    "depends":  "",
-    "homepage":  "",
-    "hash":  "",
-    "bin":  ""
+    "url":  [
+        "https://github.com/sakura-editor/sakura/releases/download/v2.3.2.0/sakura2-3-2-0.zip",
+        "https://bitbucket.org/k_takata/bregonig/downloads/bron412.zip"
+    ],
+    "hash": [
+        "f767b65096c96decb1540a7b95ef07b8dc77e08732d8af12a3fdc84e4137f2b0",
+        "c41a139b5ae9b4fac6544f6a9f720d890ebb43b61805fe9480037374a2a250b9"
+    ],
+    "extract_dir": "sakura2-3-2-0",
+    "homepage": "https://sakura-editor.github.io/",
+    "bin":  "sakura.exe",
+    "shortcuts": [
+        [
+            "sakura.exe",
+            "sakura-editor"
+        ]
+    ]
 }
