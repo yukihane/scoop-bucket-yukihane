@@ -2,6 +2,10 @@
 
 [scoop](https://github.com/lukesampson/scoop/)の自家製bucket.
 
+# Usage
+
+    scoop bucket add yukihane https://github.com/yukihane/scoop-bucket-yukihane
+
 # List
 
 * sakkura-editor: サクラエディタ https://sakura-editor.github.io/
