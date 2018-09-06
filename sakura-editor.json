@@ -16,5 +16,11 @@
             "sakura.exe",
             "sakura-editor"
         ]
+    ],
+    "pre_install": [
+      "if(!(Test-Path(\"$dir\\sakura.ini\"))) { New-Item \"$dir\\sakura.ini\" -type file | Out-Null }"
+    ],
+    "persist": [
+      "sakura.ini"
     ]
 }
